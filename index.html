@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#faf7ef">
+    <meta name="description" content="Mary Janelle A Leano's portfolio — a fourth-year Computer Engineering student, office assistant, and curious lifelong learner.">
+    <title>Mary Janelle A Leano | Portfolio</title>
+    <link rel="preload" as="image" href="assets/enchanted-garden-bg.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reference.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#home" aria-label="Mary's portfolio home">
+          <span class="brand-butterfly" aria-hidden="true">✦</span>
+          <span>MARY</span>
+        </a>
+
+        <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-button search-button" id="searchToggle" type="button" aria-label="Search sections" aria-haspopup="dialog" aria-controls="searchDialog" title="Search (Ctrl+K)">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+              <circle cx="10.9" cy="10.9" r="6.6"></circle>
+              <path d="m16 16 5 5"></path>
+            </svg>
+          </button>
+          <span class="header-divider" aria-hidden="true"></span>
+          <button class="theme-switch" id="themeToggle" type="button" aria-label="Dark mode" aria-pressed="false" title="Toggle appearance">
+            <span class="theme-sun" aria-hidden="true">☀</span>
+            <span class="theme-moon" aria-hidden="true">☾</span>
+            <span class="theme-knob" aria-hidden="true"></span>
+          </button>
+          <button class="icon-button menu-button" id="mobileMenuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="siteNav">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+              <path d="M4 7h16M4 12h16M4 17h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero ref-hero" id="home" aria-labelledby="hero-heading">
+        <img class="hero-backdrop-image" src="assets/enchanted-garden-bg.png" alt="" aria-hidden="true" fetchpriority="high" decoding="async">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="fairy-particles" id="fairyParticles" aria-hidden="true"></div>
+        <img class="botanical-corner botanical-corner--top-left fx-parallax" src="assets/leaf-top-left.png" alt="" aria-hidden="true" decoding="async">
+        <img class="botanical-corner botanical-corner--top-right fx-parallax" src="assets/leaf-top-right.png" alt="" aria-hidden="true" decoding="async">
+        <img class="hero-butterfly hero-butterfly--left fx-parallax" src="assets/butterfly-glow.png" alt="" aria-hidden="true" decoding="async">
+        <div class="hero-inner ref-hero-layout">
+          <div class="hero-copy ref-hero-copy fx-reveal">
+            <p class="hero-script">Open to</p>
+            <h1 id="hero-heading">new opportunities <span class="hero-amp">&amp;</span> possibilities</h1>
+            <p class="hero-description">Fourth-year Computer Engineering student, always curious and ready to learn something new.</p>
+            <a class="button button-gold" href="#about">Get to know me <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="ref-hero-art">
+            <img class="hero-fairy ref-hero-fairy" src="assets/ref-hero-fairy.png" alt="Illustration of a smiling woodland fairy surrounded by flowers and glowing wings" fetchpriority="high">
+          </div>
+        </div>
+      </section>
+
+      <div class="main-content">
+        <section class="profile-card ref-profile-card fx-reveal" aria-label="My profile">
+          <div class="portrait-wrap">
+            <img class="profile-portrait" src="assets/Profile.png" alt="Photograph of Mary Janelle A Leano" decoding="async">
+          </div>
+          <div class="profile-copy">
+            <h2>Mary Janelle A Leano</h2>
+            <p class="profile-subtitle">Fourth-Year Computer Engineering Student</p>
+            <p class="profile-note">Curious by nature. Growing one experience at a time.</p>
+          </div>
+          <ul class="ref-profile-stats" aria-label="At a glance">
+            <li><span class="ref-stat-icon" aria-hidden="true">✦</span><span><strong>4th Year</strong><small>Student</small></span></li>
+            <li><span class="ref-stat-icon" aria-hidden="true">♥</span><span><strong>Always</strong><small>Learning</small></span></li>
+            <li><span class="ref-stat-icon" aria-hidden="true">★</span><span><strong>Open to</strong><small>Opportunities</small></span></li>
+          </ul>
+        </section>
+
+        <section class="content-section about-section ref-about fx-reveal" id="about" aria-labelledby="about-heading">
+          <div class="ref-about-layout">
+            <div class="ref-about-scene ref-about-media" aria-hidden="true">
+              <img src="assets/ref-about-books.png" alt="" loading="lazy" decoding="async">
+            </div>
+            <div class="ref-about-content">
+              <div class="section-intro chapter-intro ref-chapter-header fx-reveal">
+                <p class="section-eyebrow"><span aria-hidden="true">✧</span> Chapter one <span aria-hidden="true">✧</span></p>
+                <h2 id="about-heading">A little <em>about me</em></h2>
+              </div>
+              <div class="about-panel ref-about-copy">
+                <div class="about-inner">
+                  <p>I'm a fourth-year Computer Engineering student who enjoys exploring new things, learning from different experiences, and expanding what I know.</p>
+                  <p>I'm open to new opportunities and always willing to develop new skills. Every project and experience is a chance for me to grow, both personally and professionally.</p>
+                  <p>I'm looking forward to using what I've learned, contributing wherever I can, and discovering what comes next.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section experience-section ref-experience fx-reveal" id="experience" aria-labelledby="experience-heading">
+          <div class="section-intro chapter-intro ref-chapter-header fx-reveal">
+            <p class="section-eyebrow"><span aria-hidden="true">✧</span> Chapter two <span aria-hidden="true">✧</span></p>
+            <h2 id="experience-heading">Work <em>experience</em></h2>
+          </div>
+          <article class="story-card experience-card ref-experience-card fx-reveal fx-tilt">
+            <div class="ref-experience-media" aria-hidden="true">
+              <img class="ref-experience-image" src="assets/ref-office-desk.png" alt="" loading="lazy" decoding="async">
+            </div>
+            <div class="story-content ref-experience-copy">
+              <div class="story-topline">
+                <span class="tag tag-outline">2021 – Present</span>
+              </div>
+              <h3>Office Assistant</h3>
+              <p class="organization">LmarkExpress</p>
+              <div class="skill-chips" aria-label="Work responsibilities">
+                <span>Data entry</span><span>Receiving and sending documents</span><span>Handling paperwork</span>
+              </div>
+              <p>Responsible for accurate data entry, receiving and sending documents, and organizing daily paperwork. This experience has strengthened my attention to detail, organizational skills, and ability to handle important office tasks efficiently.</p>
+            </div>
+          </article>
+        </section>
+
+        <section class="content-section projects-section ref-projects fx-reveal" id="projects" aria-labelledby="projects-heading">
+          <div class="section-intro chapter-intro ref-chapter-header fx-reveal">
+            <p class="section-eyebrow"><span aria-hidden="true">✧</span> Chapter three <span aria-hidden="true">✧</span></p>
+            <h2 id="projects-heading">My <em>projects</em></h2>
+          </div>
+          <div class="ref-project-grid">
+            <article class="story-card project-card ref-project fx-reveal fx-tilt">
+              <div class="project-visual ref-project-media kiosk-visual">
+                <picture class="kiosk-picture">
+                  <source media="(max-width: 800px)" srcset="assets/kiosk-project-landscape.webp" type="image/webp">
+                  <img class="ref-project-image" src="assets/kiosk-project-portrait.webp" alt="Concept illustration of a self-service cable measuring and cutting kiosk, surrounded by flowers" loading="lazy" decoding="async">
+                </picture>
+              </div>
+              <div class="story-content ref-project-copy">
+                <span class="tag tag-progress"><span aria-hidden="true">✿</span> In Progress</span>
+                <h3>Self-Service Kiosk for Cable Distribution with Automated Length Measurement and Cutting for Electronic Shops</h3>
+                <p>An ongoing academic project exploring a self-service kiosk that measures and cuts cable to a selected length for electronic shops. The goal is to make cable dispensing more convenient, accurate, and efficient.</p>
+                <p class="project-footnote">Academic project · Currently in development</p>
+              </div>
+            </article>
+            <article class="story-card project-card ref-project alagatrack-card fx-reveal fx-tilt">
+              <div class="project-visual ref-project-media alagatrack-visual">
+                <picture class="alagatrack-picture">
+                  <source media="(max-width: 800px)" srcset="assets/alagatrack-project-landscape.webp" type="image/webp">
+                  <img class="ref-project-image" src="assets/alagatrack-project-portrait.webp" alt="AlagaTrack website screenshot showing community health worker management and reporting features" loading="lazy" decoding="async">
+                </picture>
+              </div>
+              <div class="story-content ref-project-copy">
+                <span class="tag tag-outline project-role">Mary · One of the developers</span>
+                <h3>AlagaTrack</h3>
+                <p>A mobile and web-based system designed to help community health workers monitor, record, and report community health information, with tools for organizing and tracking assigned tasks.</p>
+                <a class="button project-live-link" href="https://alagatrack.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit AlagaTrack (opens in a new tab)">Visit AlagaTrack <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section contact-section ref-contact fx-reveal" id="contact" aria-labelledby="contact-heading">
+          <div class="contact-card ref-contact-layout">
+            <div class="ref-contact-intro">
+              <p class="section-eyebrow"><span aria-hidden="true">✧</span> Chapter four <span aria-hidden="true">✧</span></p>
+              <h2 id="contact-heading">Let's <em>connect</em></h2>
+              <p>Have an opportunity, project, or just want to say hello? I'd love to hear from you.</p>
+              <a class="button button-gold contact-main-link" href="mailto:leanomary4@gmail.com"><span aria-hidden="true">✉</span> Send me an email <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="ref-contact-directory" role="group" aria-label="Contact information">
+              <dl class="ref-contact-table">
+                <div class="ref-contact-row">
+                  <dt><span class="ref-contact-icon" aria-hidden="true">✉</span> Email</dt>
+                  <dd>
+                    <button class="contact-copy-button ref-contact-email-button" id="copyEmailButton" type="button" data-email="leanomary4@gmail.com" aria-label="Copy Mary's email address" title="Copy email address">
+                      <span class="contact-copy-label contact-email">leanomary4@gmail.com</span><span class="ref-contact-external" aria-hidden="true">⧉</span>
+                    </button>
+                  </dd>
+                </div>
+                <div class="ref-contact-row">
+                  <dt><span class="ref-contact-icon" aria-hidden="true">▣</span> LinkedIn</dt>
+                  <dd><span class="ref-contact-pending">Coming soon</span></dd>
+                </div>
+                <div class="ref-contact-row">
+                  <dt><span class="ref-contact-icon" aria-hidden="true">▤</span> Resume</dt>
+                  <dd><span class="ref-contact-pending">Coming soon</span></dd>
+                </div>
+                <div class="ref-contact-row">
+                  <dt><span class="ref-contact-icon" aria-hidden="true">◉</span> GitHub</dt>
+                  <dd><a href="https://github.com/EmyengX" target="_blank" rel="noopener noreferrer" aria-label="Mary's GitHub (opens in a new tab)">github.com/EmyengX <span class="ref-contact-external" aria-hidden="true">↗</span></a></dd>
+                </div>
+                <div class="ref-contact-row">
+                  <dt><span class="ref-contact-icon" aria-hidden="true">𝕏</span> Twitter</dt>
+                  <dd><span class="ref-contact-pending">Coming soon</span></dd>
+                </div>
+                <div class="ref-contact-row">
+                  <dt><span class="ref-contact-icon" aria-hidden="true">f</span> Facebook</dt>
+                  <dd><a href="https://www.facebook.com/share/19ekf98FX2/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Mary's Facebook (opens in a new tab)">Facebook profile <span class="ref-contact-external" aria-hidden="true">↗</span></a></dd>
+                </div>
+              </dl>
+              <span class="visually-hidden" id="copyEmailStatus" role="status" aria-live="polite"></span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <span aria-hidden="true">❦</span>
+      <p>Made with curiosity, a little magic, and room to grow.</p>
+      <small>© <span id="year">2026</span> Mary Janelle A Leano</small>
+    </footer>
+
+    <dialog class="search-dialog" id="searchDialog" aria-labelledby="searchDialogTitle">
+      <div class="search-dialog-header">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path>
+        </svg>
+        <h2 id="searchDialogTitle">Find something</h2>
+        <button type="button" class="search-close" data-search-close aria-label="Close search">×</button>
+      </div>
+      <label class="visually-hidden" for="searchInput">Search portfolio links</label>
+      <input id="searchInput" class="search-input" type="search" placeholder="Search about, experience, projects..." autocomplete="off">
+      <div class="search-results" id="searchResults" aria-live="polite"></div>
+      <p class="search-tip">Tip: press <kbd>Esc</kbd> to close · <kbd>Ctrl</kbd> + <kbd>K</kbd> to open</p>
+    </dialog>
+
+    <audio id="musicAudio" src="assets/Tinkerbell%20Calm.mp3" preload="metadata" autoplay loop hidden></audio>
+
+    <aside class="music-player" id="musicPlayer" aria-label="Woodland ambient music player">
+      <div class="music-shell">
+        <span class="music-emblem" aria-hidden="true">✦</span>
+        <div class="music-details">
+          <span class="music-eyebrow">Woodland ambience</span>
+          <span class="music-track-title" id="musicTrackTitle">Tinkerbell Calm</span>
+          <span class="music-status" id="musicStatus" role="status" aria-live="polite">Ready to play</span>
+        </div>
+        <span class="music-equalizer" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </span>
+        <button class="music-play-pause" id="musicPlayPause" type="button" aria-label="Play ambient music" aria-pressed="false" title="Play or pause ambient music">
+          <span class="music-icon-play" aria-hidden="true">▶</span>
+          <span class="music-icon-pause" aria-hidden="true" hidden>Ⅱ</span>
+        </button>
+        <button class="music-playlist-toggle" id="musicPlaylistToggle" type="button" aria-label="Show playlist and music controls" aria-expanded="false" aria-controls="musicPlaylist" title="Show playlist and music controls">
+          <span aria-hidden="true">⌄</span>
+        </button>
+      </div>
+
+      <div class="music-playlist" id="musicPlaylist" hidden>
+        <p class="music-playlist-heading">Woodland playlist</p>
+        <button class="music-track is-active" type="button" data-src="assets/Tinkerbell%20Calm.mp3" data-title="Tinkerbell Calm" aria-current="true">
+          <span class="music-track-note" aria-hidden="true">♫</span>
+          <span class="music-track-name">Tinkerbell Calm</span>
+        </button>
+        <div class="music-timeline">
+          <span class="music-time" id="musicCurrentTime" aria-label="Elapsed time">0:00</span>
+          <label class="visually-hidden" for="musicSeek">Seek within Tinkerbell Calm</label>
+          <input id="musicSeek" type="range" min="0" max="100" step="1" value="0">
+          <span class="music-time" id="musicDuration" aria-label="Total duration">0:00</span>
+        </div>
+        <div class="music-controls">
+          <label class="music-volume-label" for="musicVolume">Volume</label>
+          <input id="musicVolume" type="range" min="0" max="100" step="1" value="25">
+          <button class="music-loop" id="musicLoop" type="button" aria-pressed="true" aria-label="Loop music" title="Toggle loop">
+            <span aria-hidden="true">↻</span> Loop
+          </button>
+        </div>
+      </div>
+    </aside>
+  </body>
+</html>
